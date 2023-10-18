@@ -1,0 +1,424 @@
+.box-reward-head .reward-head .title {
+    font-size: 24px;
+    color: #e9155c;
+    font-weight: 600;
+}
+
+.box-reward-head .reward-head .point {
+    color: rgb(239, 201, 45);
+    font-weight: bold;
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+.box-reward-head .fa-star, .box-reward-boby .fa-star {
+    color: rgb(239, 201, 45);
+}
+
+.box-reward-head .reward-head .description {
+    color: rgb(164, 164, 164)
+}
+
+.box-reward-head .reward-head .description ul li {
+    margin-bottom: 10px;
+}
+
+.box-reward-head .reward-head .history a {
+    margin: 30px 0;
+    font-size: 20px;
+    color: #e9155c;
+    font-weight: 600;
+    background: #ffffff;
+    border: 1px solid #e9155c;
+}
+
+.box-reward-head .reward-head .history a:hover {
+    background: #e9155c;
+    color: #ffffff;
+}
+
+.box-reward-boby .title img {
+    position: relative;
+    top: -10px;
+    margin-right: 15px;
+}
+
+.box-reward-boby .title span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e9155c;
+}
+
+.box-reward-boby .description {
+    color: #e9155c;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+.box-reward-boby .main-body-reward .description-2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #e9155c;
+    margin-bottom: 25px;
+}
+
+.box-reward-boby .main-body-reward .img-mobilegift {
+    padding-left: 10px;
+}
+
+.box-reward-boby .main-body-reward .img-mobilegift img {
+    border: 1px solid #e9155c;
+}
+
+.box-reward-boby .main-body-reward .choose-gift .checkmark {
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #e9155c;
+    z-index: 1;
+}
+
+.box-reward-boby .main-body-reward .choose-gift .box-radio input:checked~.checkmark::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    background: #e9155c;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-reward-boby .main-body-reward .choose-gift .box-radio .radio-container {
+    position: relative;
+    border: 2px solid #ffe8f0;
+    padding: 10px 10px 10px 30px;
+    color: #e9155c;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.box-reward-boby .main-body-reward .choose-gift .box-radio .radio-container.checked {
+    background: #ffe8f0;
+}
+
+.box-reward-boby .main-body-reward .choose-gift .box-radio {
+    text-align: right;
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher {
+    text-align: right;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher>div {
+    display: inline-block;
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher .title {
+    color: #e9155c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.box-reward-boby .main-body-reward .line-2px {
+    width: 100%;
+    height: 1.5px;
+    background: rgb(224, 224, 224);
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher .choose-quantity-voucher {
+    border: 1px solid rgb(228, 237, 252);
+    border-radius: 5px;
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher .btn-onchange-quantity {
+    padding: 10px 15px;
+    color: #e9155c;
+}
+
+.box-reward-boby .main-body-reward .box-choose-quantity-voucher input {
+    border: none;
+    width: 50px;
+    text-align: center;
+    color: #e9155c;
+    font-size: 16px;
+    padding: 8px 5px;
+}
+
+.box-reward .box-main-setting {
+    padding: 30px;
+}
+
+.box-reward .main-body-reward .total-reward {
+    text-align: right;
+}
+
+.box-reward .main-body-reward .total-reward .total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e9155c;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.box-reward .main-body-reward .total-reward .btn-reward {
+    color: #ffffff;
+    background: #e9155c;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.box-reward .main-body-reward .total-reward .btn-reward:hover {
+    background: #ffffff;
+    color: #e9155c;
+    border: 1px solid #e9155c;
+}
+
+.box-history-reward {
+    background: rgb(242, 246, 255);
+}
+
+.box-history-reward>.title {
+    font-size: 32px;
+    color: #e9155c;
+    font-weight: bold;
+    background: #fff6f9!important;
+}
+
+.box-history-reward .line-2px {
+    width: 100%;
+    height: 1.5px;
+    background: rgb(224, 224, 224)!important;
+    margin-top: 15px;
+}
+
+.box-history-reward .table-reward-history {
+    margin-top: 30px;
+    position: relative;
+}
+
+.box-history-reward .table-reward-history table thead {
+    background: #fff6f9 !important;
+}
+
+.box-history-reward .table-reward-history table thead tr th {
+    border: none;
+    color: rgb(154, 152, 153);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box-history-reward .table-reward-history table {
+    margin: auto;
+}
+
+.box-history-reward .table-reward-history table .fa-star {
+    color: rgb(239, 201, 45);
+}
+
+.box-history-reward .table-reward-history table tbody tr td {
+    position: relative;
+    border: none;
+    padding: 25px 10px 25px;
+    color: #e9155c;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background: #ffffff;
+}
+.box-history-reward .table-reward-history table tbody tr td::before{
+    content: '';
+    background: #fff6f9;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.modal-verify-phone-reward  .verify-phone-reward{
+    padding: 30px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .title img{
+    margin-right: 10px;
+    position: relative;
+    bottom: 7px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #e9155c;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .sub-title{
+    font-size: 16px;
+    text-align: center;
+    color: #e9155c;
+}
+.modal-verify-phone-reward  .verify-phone-reward .btn-group-accept-phone{
+    text-align: right;
+    margin-top: 30px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .btn-group-accept-phone a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-verify-phone-reward  .verify-phone-reward .btn-phone-be-my{
+    background: #e9155c;
+    margin-right: 20px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .btn-phone-be-my:hover{
+    background: #ffffff;
+    border: 1px solid #e9155c;
+    color: #e9155c;
+}
+
+.modal-verify-phone-reward  .verify-phone-reward .btn-phone-not-mine{
+    background: #FF5733;
+    border: 1px solid #FF5733;
+}
+.modal-verify-phone-reward  .verify-phone-reward .btn-phone-not-mine:hover{
+    color: #FF5733;
+    background: #ffffff;
+}
+.modal-verify-phone-reward  .verify-phone-reward .box-change-phone input{
+    padding: 5px;
+    max-width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e9155c;
+    margin: auto;
+}
+.modal-verify-phone-reward  .verify-phone-reward .box-change-phone .form-group{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.modal-verify-phone-reward  .verify-phone-reward .box-change-phone  .btn-action-change-phone{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #e9155c;
+}
+.modal-verify-phone-reward  .verify-phone-reward .box-change-phone  .box-action-change-phone{
+    text-align: right;
+}
+.modal-verify-phone-reward  .verify-phone-reward .box-change-phone  .box-action-change-phone .btn-action-change-phone:hover{
+    background: #ffffff;
+    border: 1px solid #e9155c;
+    color: #e9155c;
+}
+@media (max-width: 767px) {
+    .box-reward-boby .main-body-reward .choose-gift {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .box-history-reward .table-reward-history table tbody tr td::before{
+        display: none;
+    }
+    .box-history-reward .table-reward-history table tbody tr td {
+        margin-bottom: 10px;
+    }
+    .box-history-reward .table-reward-history table tbody tr td:last-child{
+        margin-bottom: 25px;
+    }
+    .box-history-reward .table-reward-history table,
+    .box-history-reward .table-reward-history table tbody,
+    .box-history-reward .table-reward-history table tbody tr{
+        background: rgb(242, 246, 255);
+    }
+    .box-history-reward .table-responsive, .box-history-reward .table-responsive thead, .box-history-reward .table-responsive tbody, .box-history-reward .table-responsive th, .box-history-reward .table-responsive td, .box-history-reward .table-responsive tr {
+        display: block;
+    }
+    .box-history-reward .table-responsive>thead>tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .box-history-reward .table-responsive>tbody>tr:first-child {
+        border-radius: 3px 3px 0 0;
+        border-top: none;
+    }
+    .box-history-reward .table-responsive>tbody>tr:last-child {
+        border-radius: 0 0 3px 3px;
+        border-bottom: none;
+    }
+    .box-history-reward .table-responsive>tbody>tr td {
+        position: relative;
+        padding-left: 30% !important;
+        width: 100%;
+        overflow: hidden;
+    }
+    .box-history-reward .table-responsive>tbody>tr td::after {
+        content: attr(data-title);
+        position: absolute;
+        top: 25px;
+        left: 14px;
+        width: 30%;
+        padding-right: 10px;
+        white-space: nowrap;
+        color: rgb(154, 152, 153);
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center
+    }
+    .box-history-reward .table-responsive.table-order>tbody>tr:nth-child(-n + 3)>td:first-child {
+        padding: 25px 0 25px 30% !important;
+        background-position: left 32% center;
+    }
+    .box-history-reward .table-responsive.table-order>tbody>tr:nth-child(-n + 3)>td:first-child span {
+        left: 32%;
+    }
+    .box-history-reward .table-reward-history.table-responsive, .box-history-reward .table-responsive {
+        border: none;
+    }
+    .box-history-reward .table-reward-history table tbody tr td:last-child::before {
+        height: 25px;
+    }
+    .box-history-reward .table-reward-history table tbody tr:last-child td:last-child::before {
+        display: none;
+    }
+}
+@media(max-width: 480px){
+    .box-history-reward .table-responsive>tbody>tr td::after{
+        width: 100%;
+        text-align: center;
+        top: 10px;
+        left: 0px;
+        padding: 0px;
+    }
+    .box-history-reward .table-reward-history table tbody tr td{
+        padding: 45px 15px 15px!important;
+    }
+    .box-reward-head .reward-head .point {
+        font-size: 65px;
+    }
+    .box-reward-boby .main-body-reward .choose-gift .box-radio>div>div {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .box-reward-boby .main-body-reward .choose-gift .box-radio .radio-container {
+        width: 100%;
+    }
+}

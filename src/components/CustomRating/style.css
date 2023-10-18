@@ -1,0 +1,8 @@
+.answer .rating-item .react-rater a.is-active,
+.answer .rating-item .react-rater a.is-active-half::before,
+.answer .rating-item .react-rater a.will-be-active {
+  color: #e9155c;
+}
+.answer .rating {
+  text-align: center;
+}

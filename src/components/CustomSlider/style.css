@@ -1,0 +1,22 @@
+.vote-content .progress {
+  width: 320px;
+}
+.vote-content .answer.slider {
+  overflow: initial;
+}
+.vote-content .answer.slider li {
+  margin-bottom: 10px;
+}
+.vote-content .answer.slider li .caption {
+  margin-bottom: 10px;
+  text-align: right;
+}
+.answer.slider .rangeslider.rangeslider-horizontal {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+  .vote-content .answer.slider li .caption {
+    text-align: left;
+  }
+}

@@ -1,0 +1,23 @@
+/* description */
+ .add-describe span {
+    color: #e9155c;
+}
+
+.add-describe span:first-child {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.ck.ck-editor .ck-editor__top .ck-sticky-panel .ck-toolbar {
+    border: none;
+    background: #ffe8f0;
+}
+
+.ck.ck-editor {
+    border: 2px solid;
+    border-color: #ffe8f0;
+    border-radius: 3px;
+}
+
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    border: none;
+}

@@ -1,0 +1,150 @@
+.box-list-logic-selected .title{
+	font-size: 24px;
+	color: #e9155c;
+	font-weight: 600;
+}
+.box-list-logic-selected .sub-title{
+	font-size: 18px;
+	padding: 20px 0;
+	font-weight: 600;
+	color: #e9155c;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question,
+.box-list-logic-selected .list-logic-selected .table-swap-question thead{
+	width: 100%;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question thead th{
+	padding: 10px;
+    background-color: #ffe8f0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: none;
+    font-weight: bold;
+    color: #e9155c;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question thead th:first-child,
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody td:first-child{
+	width: 65px;
+	text-align: center;
+    padding: 10px;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody td:first-child{
+	font-size: 16px;
+	font-weight: 600;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody tr{
+	position: relative;
+	vertical-align: top;
+	cursor: pointer;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question thead tr,
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody tr{
+	border: 2px solid #ffe8f0;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody tr.active{
+	background: #fff6f9;
+	border-left: 2px solid #e9155c;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question .box_logic_target_question{
+	position: relative;
+	padding: 10px;
+}
+.box-list-logic-selected .table-swap-question .toggle-row{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.box-list-logic-selected .table-swap-question .active .toggle-row{
+	top: 0px !important;
+}
+.box-list-logic-selected .table-swap-question .wrap-condition-detail{
+	width: 100%;
+	margin: 0 !important;
+}
+.box-list-logic-selected .table-swap-question .condition-detail{
+	position: relative;
+}
+.box-list-logic-selected .table-swap-question .wrap-condition-detail .clear-pd{
+	padding: 0 !important;
+}
+.box-list-logic-selected .table-swap-question .pd-10,
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody tr.active td{
+	padding: 10px;
+}
+.box-list-logic-selected .table-swap-question .list-content,
+.box-list-logic-selected .table-swap-question .target-question{
+	min-width: 0;
+	max-width: 425px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question .target-question{
+	width: calc(100% - 15px);
+}
+ .mrb-25px{
+ 	margin-bottom: 25px;
+ }
+.table-swap-question .condition-detail .title-detail,
+.wrap-condition-detail .pull-right .btn-delete,
+.wrap-condition-detail .pull-right .btn-edit{
+	font-size: 16px;
+	font-weight: 600;
+}
+.table-swap-question .condition-detail .destination{
+	display: flex;
+}
+.table-swap-question .condition-detail .destination .title-destination{
+	font-size: 16px;
+	font-weight: 600;
+	min-width: 138px;
+}
+.table-swap-question ul{
+	padding-left: 15px;
+	margin-bottom: 0 !important;
+}
+.table-swap-question .condition-detail .basic-info > li{
+	list-style: circle;
+}
+.table-swap-question .condition-detail .basic-info{
+	line-height: 2;
+}
+.wrap-condition-detail .pull-right:last-child{
+	margin-right: 5px;
+}
+.table-swap-question .wrap-condition-detail .list-inline{
+	overflow: hidden;
+    padding: 15px 0;
+}
+.box-list-logic-selected .list-logic-selected .table-swap-question tbody .empty-cell td{
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.6;
+}
+@media (max-width: 540px){
+	.box-list-logic-selected .table-swap-question .list-content,
+	.box-list-logic-selected .table-swap-question .target-question {
+	    min-width: 0;
+	    max-width: 250px;
+	    display: inline-block;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    text-align: center;
+	}
+	.box-list-logic-selected .list-logic-selected .table-swap-question thead th:first-child,
+	.box-list-logic-selected .list-logic-selected .table-swap-question tbody td:first-child{
+		width: 55px;
+		text-align: center;
+	    padding: 10px;
+	}
+	.table-swap-question ul {
+	    padding-left: 10px;
+	    margin-bottom: 0 !important;
+	}
+	.table-swap-question .condition-detail .destination{
+		display: block;
+	}
+}

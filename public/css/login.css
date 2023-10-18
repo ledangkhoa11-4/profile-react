@@ -1,0 +1,110 @@
+
+.list-social li.fb a {
+    background-color: #3f51b5;
+}
+
+.list-social li a {
+    border-radius: 100%;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.fb .fa-facebook{
+    color: #FFFFFF;
+}
+.list-social li.tw a {
+    background-color: #00bcd4;
+}
+.list-social li.lk a {
+    background-color: #2196f3;
+}
+
+.item .inner .login-form{
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    padding: 30px 20px 10px;
+    box-shadow: 0 0 18px 0px rgba(0,0,0,.2);
+    position: relative;
+    z-index: 1;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 10px;
+}
+.btn-login-3{
+    width: 100%;
+    background: #1a3263;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+.btn-login-3:hover{
+    background: #FFFFFF;
+    color: #1a3263;
+    border: 1px solid #1a3263;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+@font-face {
+    font-family: 'zalo';
+    src: url('../../assets/fonts/zalo.eot?jcqfxo');
+    src: url('../../assets/fonts/zalo.eot?jcqfxo#iefix') format('embedded-opentype'), url('../../assets/fonts/zalo.ttf?jcqfxo') format('truetype'), url('../../assets/fonts/zalo.woff?jcqfxo') format('woff'), url('../../assets/fonts/zalo.svg?jcqfxo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+    
+  }
+  
+  
+  [class^="zalo-"], [class*=" zalo-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'zalo' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .zalo-cicle_icon:before {
+    content: "\e900";
+  }
+  .list-social{
+      text-align: center;
+  }
+  .section-form-login label{
+      color: #000000;
+      font-weight: normal;
+      font-size: 16px;
+  }
+  .section-form-login label:hover{
+    color: #f37226;
+    font-weight: normal;
+    font-size: 16px;
+    }
+    .section-form-login .btn-group{
+        width: 100%;
+    }
+    .section-form-login .btn-group a{
+        color: #000000;
+    }
+    .section-form-login .btn-group a:hover{
+        color: #f37226;
+    }
+    .item h1{
+        color: #1a3263;
+    }

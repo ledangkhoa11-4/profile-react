@@ -1,0 +1,14 @@
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: 'transparent';
+}
+
+.circle-progress {
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

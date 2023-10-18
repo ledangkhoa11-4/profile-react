@@ -1,0 +1,178 @@
+.box-detail-information .content .list-title-information {
+    width: 35%;
+    display: table-cell;
+    vertical-align: top;
+    padding: 0;
+}
+
+.box-detail-information .content .list-title-information ul li {
+    font-size: 16px;
+    padding: 20px 40px 20px 20px;
+    background: #e9155c08;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+
+}
+.box-detail-information .content .list-title-information ul li.active::before,
+.box-detail-information .content .list-title-information ul li:hover::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background: #e9155c;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.box-detail-information .content .list-title-information ul li.active::after,
+.box-detail-information .content .list-title-information ul li:hover::after{
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    top: 22px;
+    right: -10px;
+    z-index: 100;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.box-detail-information .content .list-title-information ul li a {
+    color: #e9155c;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.box-detail-information .content .list-title-information ul li.active, .box-detail-information .content .list-title-information ul li:hover {
+    background: #e9155c1f;;
+}
+
+.box-detail-information .react-tabs__tab-list {
+    margin-bottom: 0px;
+    border: none;
+    padding-right: 30px;
+}
+.react-tabs__tab--selected{
+    border-radius: 0px;
+}
+.box-detail-information .content .collasap {
+    width: 64%;
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.box-detail-information .content .collasap .item {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.box-detail-information .content .collasap .item:first-child {
+    padding-top: 0px;
+}
+
+.box-detail-information .content .collasap .item .question {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.3em;
+    color: #141312;
+}
+
+.box-detail-information .content .collasap .item .detail {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box-detail-information .content .collasap .item .detail .desc {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.3em;
+    width: 100%;
+    padding-right: 110px;
+}
+
+.box-detail-information .content .collasap .item .detail .edit {
+    color: #e9155c;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-detail-information .content .collasap .item .detail .edit i {
+    margin-right: 5px;
+}
+
+.box-detail-information .content .collasap .item .answer .form-group {
+    margin-bottom: 0;
+    width: 74%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box-detail-information .content .collasap .item .answer .btn {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    padding: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 0;
+    margin: 0 3px;
+}
+
+.box-detail-information .content .collasap .item .answer .btn .material-icons {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.box-detail-information .content .collasap .item .answer .btn:hover {
+    background: #fff;
+    color: #e9155c;
+    border: 1px solid #e9155c;
+}
+
+.box-detail-information .padding-more {
+    padding: 20px 10px;
+}
+.box-detail-information .content .list-title-information .quantity-profile-need-input{
+    position: absolute;
+    background: #e9155c;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    min-width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 2px 5px;
+    right: 15px;
+    top: 50%;
+    line-height: 20px;
+    transform: translate(0px, -50%);
+    z-index: 100;
+}
+.box.box-detail-information .collasap .title-mobile {
+    position: relative;
+}
+.box.box-detail-information .collasap .title-mobile .quantity-profile-need-input{
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    color: #e9155c;
+    font-size: 14px;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    padding: 2px 5px;
+    right: 15px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    z-index: 100;
+}

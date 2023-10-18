@@ -1,0 +1,89 @@
+.quick-profile {
+    position: relative;
+}
+.quick-profile .form-btn {
+    margin-top: 15px;
+}
+.close-quick-profile {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+select[class^="react-datepicker"] {
+    -webkit-appearance: menulist-button;
+    -moz-appearance: menulist-button;
+    appearance: menulist-button;
+}
+.quick-profile .caption{
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.quick-profile  select{
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+}
+.quick-profile input{
+    width: 50%;
+}
+.box-progress-bar{
+    position: relative;
+    margin-top: 20px;
+}
+.box-progress-bar .img-point{
+    position: relative;
+    text-align: center;
+}
+.box-progress-bar .img-point img{
+    width: 35px;
+    height: 35px;
+}
+.box-progress-bar .img-point .point{
+    position: absolute;
+    top: 12px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+}
+.box-progress-bar .progress-bar-success{
+    background: #e9155c;
+    font-size: 12px;
+    line-height: 16px;
+}
+.box-progress-bar .progress {
+    height: 15px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.box-setting-profle-contain .close-quick-profile span{
+    font-size: 16px;
+    color: red;
+}
+
+.position-relative{
+    position: relative;
+}
+.box-setting-profle-contain .form.quick-profile .form-btn{
+    margin-top: 50px;
+}
+.quick-profile .react-datepicker-wrapper{
+    width: 50%;
+}
+.quick-profile .react-datepicker-wrapper .react-datepicker__input-container{
+    background-color: #fff!important;
+    border-color: #d9d9d9 #ccc #b3b3b3!important;
+    border-radius: 4px!important;
+    border: 1px solid #ccc!important;
+    width: 100%;
+}
+.quick-profile .react-datepicker-wrapper .react-datepicker__input-container:hover {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}

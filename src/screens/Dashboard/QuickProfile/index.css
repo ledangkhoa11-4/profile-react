@@ -1,0 +1,16 @@
+.quick-profile {
+    position: relative;
+}
+.quick-profile .form-btn {
+    margin-top: 15px;
+}
+.close-quick-profile {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+select[class^="react-datepicker"] {
+    -webkit-appearance: menulist-button;
+    -moz-appearance: menulist-button;
+    appearance: menulist-button;
+}

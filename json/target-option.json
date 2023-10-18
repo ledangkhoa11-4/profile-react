@@ -1,0 +1,102 @@
+{  
+    "poll":{  
+        "project_id":"4",
+        "name":"Tao Poll moi",
+        "from_date":"2017-11-28 00:00:00",
+        "to_date":"2018-11-28 00:00:00",
+        "category_id":"2",
+        "status":"Save",
+        "number_vote":1213
+    },
+    "question":{  
+        "name":"Khảo sát độ tuổi.",
+        "question":"Bạn bao nhiêu tuổi?",
+        "question_type":"single",
+        "media_type":"text",
+        "media":"https://znews-photo-td.zadn.vn/w1024/Uploaded/mdf_drksxa/2016_08_22/haohao.jpg"
+    },
+    "answer":[  
+        {  
+            "title":"Dưới 18",
+            "value_type":"text",
+            "value":"Dưới 18",
+            "is_corrected":1
+        },
+        {  
+            "title":"Từ 18 đến 25",
+            "value_type":"text",
+            "value":"Từ 18 đến 25",
+            "is_corrected":1
+        },
+        {  
+            "title":"Từ 25 đến 40",
+            "value_type":"text",
+            "value":"Từ 25 đến 40",
+            "is_corrected":1
+        }
+    ],
+    "target":{  
+        "name":"Target Khảo sát độ tổi",
+        "targets":[
+			{
+				"compare":"or",
+				"value":[
+					{  
+						"target":{  
+							"gender":[  
+								"Nam",
+								"Nu",
+								"Khac"
+							],
+							"city":[  
+								"1",
+								"2"
+							],
+							"country":"VietNam",
+							"age_start":15,
+							"age_end":30
+						},
+						"option":[  
+							{  
+								"categorie_id":2,
+								"question_id":7,
+								"answer_id":[  
+									4,
+									5
+								]
+							}
+						],
+						"compare":"or"
+					},
+					{  
+						"target":{  
+							"gender":[  
+								"Nam",
+								"Nu",
+								"Khac"
+							],
+							"city":[  
+								"1",
+								"2"
+							],
+							"country":"VietNam",
+							"age_start":15,
+							"age_end":30
+						},
+						"option":[  
+							{  
+								"categorie_id":2,
+								"question_id":7,
+								"answer_id":[  
+									4,
+									5
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+		
+    }
+}

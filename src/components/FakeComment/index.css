@@ -1,0 +1,24 @@
+.temporate-comment .form {
+  position: relative;
+}
+
+.temporate-comment .form textarea {
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  padding-right: 110px;
+  border: 1px solid #1a3263!important;
+  border-radius: 0px!important;
+}
+
+.temporate-comment .form button {
+  right: 5px;
+  top: 10px;
+}
+
+.temporate-comment .inner {
+  width: initial;
+  float: none;
+  clear: both;
+  opacity: 1;
+}

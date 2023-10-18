@@ -1,0 +1,52 @@
+.register-form .form-group input, .register-form .form-group textarea{
+    width: 100%;
+
+}
+
+.register-form .form-group input{
+    height: 29px;
+    display: inline-block;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+.register-form .form-group textarea{
+    height: auto;
+    display: inline-block;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.register-form .form-group label{
+    font-weight: normal;
+    font-size: 16px;
+}
+.register-form .btn-group{
+    font-weight: normal;
+    font-size: 14px;
+    width: 100%;
+}
+.intro-block .container{
+    /* background: url(../../assets/images/bgd-signinuser.jpg) center center no-repeat; */
+    background-size: cover;
+    background: #1a3263;
+}
+.register-custom .item{
+    width: 98%;
+    margin: auto;
+}
+.register-custom .item .inner h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+.register-custom .item .inner h3{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}
+.register-custom .item .inner .btn-group a{
+    text-transform: uppercase;
+    color: #000000;
+    
+}

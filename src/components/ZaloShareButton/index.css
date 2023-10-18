@@ -1,0 +1,20 @@
+.zalo-icon-wrapper {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background: #018ee3;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+.zalo-icon-wrapper:hover {
+    cursor: pointer;
+}
+.zalo-icon-wrapper img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

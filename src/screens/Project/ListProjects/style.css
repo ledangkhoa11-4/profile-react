@@ -1,0 +1,116 @@
+.form .group-search {
+  position: relative;
+  border: 1px solid #eeeeee;
+}
+.form .group-search .input {
+  padding-right: 55px;
+  font-size: 14px;
+}
+.form .group-search span {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  color: #757575;
+}
+.form .group-search .fa-times {
+  font-size: 13px;
+  padding: 10px;
+  top: 0;
+  right: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+.box-project .item {
+  background-color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+}
+.margin-bottom-30{
+  margin-bottom: 30px;
+}
+.box-project .item .title{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+
+}
+.box-project .item .title:hover{
+  color: #e9155c;
+}
+.box-project .item .detail{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+.box-project .item .detail .text{
+  color: #b7b7b7;
+  vertical-align: unset!important;
+}
+.box-project .item .detail .quantity{
+  font-size: 14px;
+  font-weight: 600;
+
+}
+.box-project .item .description{
+  color: #b7b7b7;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box-project .item .box-edit{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+.box-project .item .box-edit .dropdown-toggle{
+  cursor: pointer;
+}
+.box-project .item .box-edit .dropdown-toggle span{
+  font-size: 7px;
+  color: #919191;
+}
+
+.box-project .item .box-edit  .dropdown-menu{
+  right: 0;
+  left: unset;
+  z-index: 1000;
+}
+.box-form-add-project .label{
+  color: #e9155c!important;
+  font-weight: 600!important;
+}
+.close-add-project{
+  top: 5px!important;
+  right: 5px!important;
+}
+.box-item .head .title.project{
+  float: unset;
+  text-align: center;
+}
+@media(max-width: 545px){
+  .box-add .btn-add-project{
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+}
+@media(max-width: 480px){
+  .box-add .box-btn-add-project{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .box-project .item .detail .quantity{
+    width: 100%;
+    display: block;
+  }
+  .box-add .group-search.seacrh-project{
+    text-align: right;
+  }
+  .box-add .box-btn-search-project{
+    width: 100%;
+  }
+  .box-add.margin-bottom-30{
+    margin-bottom: 20px;
+  }
+}

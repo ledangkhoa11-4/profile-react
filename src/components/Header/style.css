@@ -1,0 +1,31 @@
+.box-change-avatar-user .avatar img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 5px;
+    right: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-change-avatar-user .avatar-user > img {
+    width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-change-avatar-user .avatar-user {
+    width: 126px;
+    height: 126px;
+    position: relative;
+    margin: auto;
+    background-color: #F7F7F7 !important;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 24px;
+}
+.box-change-avatar-user{
+    position: relative;
+}
